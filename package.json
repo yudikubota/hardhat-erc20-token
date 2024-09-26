@@ -5,7 +5,8 @@
   "scripts": {
     "test": "hardhat test",
     "format": "prettier --write .",
-    "coverage": "hardhat coverage"
+    "coverage": "hardhat coverage",
+    "deploy": "hardhat run ./scripts/deploy.ts"
   },
   "license": "MIT",
   "devDependencies": {
