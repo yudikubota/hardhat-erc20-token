@@ -2,6 +2,9 @@
   "name": "hardhat-erc20-token",
   "version": "1.0.0",
   "description": "Creat a basic ERC-20 Standard Token",
+  "engines": {
+    "node": "^18"
+  },
   "scripts": {
     "test": "hardhat test",
     "format": "prettier --write .",
