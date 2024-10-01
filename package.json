@@ -9,7 +9,7 @@
     "test": "hardhat test",
     "format": "prettier --write .",
     "coverage": "hardhat coverage",
-    "deploy": "hardhat run ./scripts/deploy.ts"
+    "deploy": "hardhat run ./deploy/01-deploy-token.ts"
   },
   "license": "MIT",
   "devDependencies": {
